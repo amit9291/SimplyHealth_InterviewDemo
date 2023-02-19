@@ -1,0 +1,326 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 124950600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on homepage",
+            "match": {
+              "location": "Register.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 120057101,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I accept cookie policy",
+            "match": {
+              "location": "Register.iAcceptCookiePolicy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 525779300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on My account tab",
+            "match": {
+              "location": "Register.iClickOnMyAccountTab()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5661045300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "As a User I should navigate to My account page successfully",
+        "description": "",
+        "id": "registration-test;as-a-user-i-should-navigate-to-my-account-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 675365399,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1227260800,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#    Given I am on homepage"
+              },
+              {
+                "line": 10,
+                "value": "#    And I accept cookie policy"
+              },
+              {
+                "line": 11,
+                "value": "#    When I click on My account tab"
+              }
+            ],
+            "line": 12,
+            "name": "I should navigate to login to your account page successfully and verify text \"Log in to your account\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Log in to your account",
+                  "offset": 78
+                }
+              ],
+              "location": "Register.iShouldNavigateToLoginToYourAccountPageSuccessfullyAndVerifyText(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 29200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on homepage",
+            "match": {
+              "location": "Register.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 396592000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I accept cookie policy",
+            "match": {
+              "location": "Register.iAcceptCookiePolicy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 665535699,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on My account tab",
+            "match": {
+              "location": "Register.iClickOnMyAccountTab()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2853206100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "User should register successfully with valid credentials",
+        "description": "",
+        "id": "registration-test;user-should-register-successfully-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 754567200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1726258601,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 16,
+                "value": "#    Given I am on homepage"
+              },
+              {
+                "line": 17,
+                "value": "#    And I accept cookie policy"
+              },
+              {
+                "line": 18,
+                "value": "#    When  I click on My account tab"
+              }
+            ],
+            "line": 19,
+            "name": "I click on Sign up link",
+            "match": {
+              "location": "Register.iClickOnSignUpLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1479114399,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I enter email \"create@gmail.com\" in email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "create@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "Register.iEnterEmailInEmailField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 214059000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter same email \"create@gmail.com\" in confirm email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "create@gmail.com",
+                  "offset": 20
+                }
+              ],
+              "location": "Register.iEnterSameEmailInConfirmEmailField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 158925999,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter password \"Asdfgh@12345\" in create password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Asdfgh@12345",
+                  "offset": 18
+                }
+              ],
+              "location": "Register.iEnterPasswordInCreatePasswordField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123699200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter same password \"Asdfgh@12345\" in confirm your password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Asdfgh@12345",
+                  "offset": 23
+                }
+              ],
+              "location": "Register.iEnterSamePasswordInConfirmYourPasswordField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 165730900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on register button",
+            "match": {
+              "location": "Register.iClickOnRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 307115299,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I should see text \"You\u0027ve got mail.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "You\u0027ve got mail.",
+                  "offset": 19
+                }
+              ],
+              "location": "Register.iShouldSeeText(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Registration Test",
+    "description": "",
+    "id": "registration-test",
+    "keyword": "Feature",
+    "uri": "register.feature"
+  }
+]

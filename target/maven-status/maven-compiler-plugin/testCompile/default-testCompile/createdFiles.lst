@@ -1,0 +1,3 @@
+uk\co\simplyhealth\cucumber\runner\TestRunner.class
+uk\co\simplyhealth\cucumber\steps\Register.class
+uk\co\simplyhealth\cucumber\Hooks.class
