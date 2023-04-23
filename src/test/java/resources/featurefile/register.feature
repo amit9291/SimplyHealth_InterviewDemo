@@ -21,5 +21,6 @@ Feature: Registration Test
     Then I should see text "You've got mail."
 
     Scenario: As a User I should not be able to log in with invalid credentials
+      Given I am on homepage
 
 
