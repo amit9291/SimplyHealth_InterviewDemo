@@ -22,5 +22,7 @@ Feature: Registration Test
 
     Scenario: As a User I should not be able to log in with invalid credentials
       Given I am on homepage
+      And I accept cookie policy
+      When  I click on My account tab
 
 
